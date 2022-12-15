@@ -1,17 +1,77 @@
-/* Error: Can't find stylesheet to import.
- *   ,
- * 7 | @import 'sub_page.scss';
- *   |         ^^^^^^^^^^^^^^^
- *   '
- *   scss\style.scss 7:9  root stylesheet */
-
-body::before {
-  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
-      "Droid Sans Mono", monospace, monospace;
-  white-space: pre;
-  display: block;
-  padding: 1em;
-  margin-bottom: 1em;
-  border-bottom: 2px solid black;
-  content: "Error: Can't find stylesheet to import.\a   \2577 \a 7 \2502  @import 'sub_page.scss';\a   \2502          ^^^^^^^^^^^^^^^\a   \2575 \a   scss\\style.scss 7:9  root stylesheet";
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
+
+ul, ol, li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* 보이지 않게 멀리 보내는 클래스 */
+.hidden {
+  position: absolute;
+  top: -99999px;
+  opacity: 0;
+}
+
+#header {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+#header .inner {
+  width: 100%;
+  height: 140px;
+  background: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#header .inner .logo {
+  margin-left: 30px;
+}
+#header .inner .menuWeb #gnb {
+  display: flex;
+}
+#header .inner .menuWeb #gnb li {
+  margin-right: 50px;
+}
+#header .inner .menuWeb #gnb li a {
+  color: #000;
+}
+
+#visual {
+  width: 100%;
+  height: 100vh;
+  padding-top: 140px;
+  background-image: url(../img/visual.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#visual .inner {
+  width: 1180px;
+  height: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#visual .inner h2 {
+  color: #000;
+}
+
+#brand {
+  width: 100%;
+  height: 100vh;
+}
+
+/*# sourceMappingURL=style.css.map */
