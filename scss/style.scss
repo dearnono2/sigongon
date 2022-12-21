@@ -84,6 +84,43 @@
   }
 }
 
+// news
+#news {
+  margin-top: 100px;
+  .inner {
+    width: 1180px;
+    margin: 0 auto;
+    h2 {}
+    .left-box {
+      float: left;
+      width: 50%;
+    }
+    .right-box {
+      float: right;
+      width: 50%;
+      .pic {
+        img {
+          width: 100%; height: 100%;
+        }
+      }
+    }
+    &::after {
+      display: block;
+      clear: both;
+      content: '';
+    }
+  }
+}
+
+#work {
+  .inner {
+    width: 1180px;
+    .work-container {
+
+    }
+  }
+}
+
 // brand
 #brand {
   width: 100%; height: 100vh;
