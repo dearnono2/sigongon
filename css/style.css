@@ -103,13 +103,23 @@ a {
   width: 1180px;
   margin: 0 auto;
 }
+#news .inner h2 {
+  text-align: center;
+  margin-bottom: 50px;
+}
 #news .inner .left-box {
   float: left;
-  width: 50%;
+  width: 45%;
+  height: 500px;
 }
 #news .inner .right-box {
   float: right;
-  width: 50%;
+  width: 45%;
+  height: 500px;
+}
+#news .inner .right-box .pic {
+  width: 100%;
+  height: 100%;
 }
 #news .inner .right-box .pic img {
   width: 100%;
@@ -121,6 +131,10 @@ a {
   content: "";
 }
 
+#work {
+  width: 100%;
+  margin-top: 100px;
+}
 #work .inner {
   width: 1180px;
 }
