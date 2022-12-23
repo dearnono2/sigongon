@@ -5,6 +5,13 @@
   box-sizing: border-box;
 }
 
+html {
+  font-size: 62.5%;
+}
+html body {
+  font-size: 1.6rem;
+}
+
 ul, ol, li {
   list-style: none;
 }
@@ -35,6 +42,9 @@ a {
   justify-content: space-between;
   align-items: center;
 }
+#header .inner h1 span {
+  font-size: 3rem;
+}
 #header .inner .logo {
   margin-left: 30px;
 }
@@ -46,6 +56,7 @@ a {
 }
 #header .inner .menuWeb #gnb li a {
   color: #000;
+  font-size: 1.6rem;
 }
 
 #visual {
