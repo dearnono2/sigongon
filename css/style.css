@@ -56,7 +56,6 @@ a {
 }
 #header .inner .menuWeb #gnb li a {
   color: #000;
-  font-size: 1.6rem;
 }
 
 #visual {
@@ -97,10 +96,15 @@ a {
 #visual .inner .text-box h2 {
   color: #000;
 }
+#visual .inner .text-box p {
+  margin-top: 10px;
+}
 #visual .inner .text-box a {
-  margin-top: 30px;
+  display: inline-block;
+  margin-top: 10px;
   background: #fff;
-  border: 2px solid #fff;
+  padding: 10px;
+  border: 2px solid #000;
   color: #000;
 }
 #visual .inner .text-box a:hover {
