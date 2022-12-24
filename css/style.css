@@ -158,4 +158,51 @@ a {
   height: 100vh;
 }
 
+#footer {
+  width: 100%;
+  background: #777;
+  padding: 100px 0;
+}
+#footer .inner {
+  width: 1180px;
+  margin: 0 auto;
+}
+#footer .inner::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+#footer .inner h2 {
+  font: bold 24px/1 "arial";
+  color: #ccc;
+  float: left;
+}
+#footer .inner ul {
+  float: right;
+}
+#footer .inner ul li {
+  float: left;
+  margin-left: 20px;
+}
+#footer .inner ul li a {
+  font: bold 14px/1 "arial";
+  color: #ccc;
+}
+#footer .inner address {
+  float: left;
+  width: 100%;
+  font: 12px/1 "arial";
+  color: #ccc;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  padding-top: 20px;
+  border-top: 1px solid #ccc;
+}
+#footer .inner p {
+  float: left;
+  width: 100%;
+  font: 12px/1 "arial";
+  color: #ddd;
+}
+
 /*# sourceMappingURL=style.css.map */
