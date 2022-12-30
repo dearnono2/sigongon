@@ -166,6 +166,11 @@ a {
   height: 100vh;
 }
 
+#banner {
+  width: 100%;
+  margin-top: 100px;
+}
+
 #footer {
   width: 100%;
   background: #777;
