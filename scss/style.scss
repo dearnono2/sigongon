@@ -129,8 +129,12 @@
   margin-top: 100px;
   .inner {
     width: 1180px;
+    margin: 0 auto;
     .work-container {
-
+      display: flex;
+      .work-box {
+        display: flex;
+      }
     }
   }
 }

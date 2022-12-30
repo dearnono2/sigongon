@@ -152,7 +152,15 @@ a {
 }
 #work .inner {
   width: 1180px;
+  margin: 0 auto;
 }
+#work .inner .work-container {
+  display: flex;
+}
+#work .inner .work-container .work-box {
+  display: flex;
+}
+
 #brand {
   width: 100%;
   height: 100vh;
