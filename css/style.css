@@ -155,11 +155,25 @@ a {
   width: 1180px;
   margin: 0 auto;
 }
-#work .inner .work-container {
-  display: flex;
-}
 #work .inner .work-container .work-box {
   display: flex;
+  justify-content: center;
+  width: 100%;
+  margin: 20px;
+}
+#work .inner .work-container .work-box:nth-of-type(1) img {
+  width: 30%;
+}
+#work .inner .work-container .work-box:nth-of-type(1) .work-text-box {
+  background: red;
+  width: 30%;
+  margin: 0 5%;
+}
+#work .inner .work-container .work-box:nth-of-type(2) .work-text-box {
+  background: green;
+}
+#work .inner .work-container .work-box:nth-of-type(3) .work-text-box {
+  background: blue;
 }
 
 #brand {
